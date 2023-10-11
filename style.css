@@ -1,0 +1,209 @@
+* body{
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden ;
+    min-width: 328px;
+    background: #fff;
+    font-family: 'Graphik','halvetica neua',Arial, Helvetica, sans-serif;
+  }
+ .container{
+    width: 85%;
+    margin: auto;
+  }
+.list{
+    background-color: #fff;
+    color: rgb(38, 38, 38);
+    width: 800%;
+    
+  }
+.list ul{
+    padding: 8px 5px;
+    margin: 5px 20px;
+    margin-top: 1px;
+    margin-left: 50px;
+  }
+  img{
+    position: relative;
+    width: 40px;
+    float: left;
+    margin-top: 8px;
+    margin-left: -20px;
+  }
+.list li{
+     display: inline-block;
+     padding: 4px 0;
+     margin: 0 10px;
+     font-size: 16px;
+     font-weight: 600;
+     border-bottom: 2px solid transparent;
+   }
+.list li:hover{
+    border-bottom: 2px solid #666;
+   }
+.list a{
+    text-decoration: none;
+    color: rgb(38,38,38);
+   }
+ .snapsearch{
+   width: 100px;
+   background: #fffc00;
+   border-radius: 20px;
+   padding: 10px 30px;
+   border: 1px solid var(--sds-webc-color-content-secondary);
+   color: rgb(240, 232, 232);
+   transition: all .2s ease-in-out;
+   margin-left: 1000px;
+   text-align: center;
+   
+ } 
+ 
+
+    
+ 
+.sectionn{
+    background-color: #fffc00;
+    height: 120vh;
+    width: 100%;
+    margin-top: 10px;
+   }
+.snap{
+   width: 40%;
+   float: left;
+   
+}
+   
+
+.snap h1{
+   font-family: var(--font-secondary);
+    font-style: normal;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    color: var(--black-v200);
+    max-width: 435px;
+    min-height: 258px;
+    font-size: 64px;
+    line-height: 86px;
+    padding-top: 5%;
+   padding-left: 15%;
+   box-sizing: inherit;
+   
+   }
+.snap h2{
+   max-width: 427px;
+   height: 60px;
+   font-size: 24px;
+   line-height: 30px;
+   display: block;
+    margin-top: 20px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0;
+    margin: 0;
+    padding-left: 15%;
+    padding-bottom: 20px;
+    box-sizing: inherit;
+}
+
+button.homelogo{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   gap: 8px;
+   width: 222px;
+   min-width: fit-content;
+   border: 0;
+   padding: 0 20px;
+   height: 49px;
+   text-align: center;
+   color:whitesmoke;
+   background: black;
+   box-shadow: 0 0 32px rgba(0,0,0,.08);
+   border-radius: 500px;
+   margin-top: 30px;
+   cursor: pointer;
+   margin-left: 15%;
+}
+.photo img{
+   display: flex;
+   width: 50vw;
+   float: left;
+  
+}
+#fot{
+    background-color: #f8f9fb;
+    height: 250px;
+   }
+#fot.foter{
+        display:grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 1rem;
+        color: rgba(0, 0,0,0.4);
+    }
+.foter ul{
+   position: relative;
+   box-sizing: border-box;
+   float: left;
+   width: 25%;
+    
+    
+ }   
+ .foter li{
+    color: rgba(0, 0,0,0.87);
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 7px;
+    display: flex; 
+ }
+ .foter a{
+    text-decoration: none;
+    color: #999;
+    font-size: 13px;
+    font-weight: 200;
+ }
+ .foter a:hover{
+    color: rgba(0, 0,0,0.87);
+ }
+ .lang{
+    background: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+    width: 200px;
+    height: 34px;
+    display: flex;
+ }
+ .lang p{
+    float:left;
+    margin: 9px 6px;
+    color: #777;
+ }
+ .lang i{
+    float: right;
+    padding: 10px;
+    color: #555;
+    font-size: 14px;  
+ }
+ .fotter{
+    height: 60px;
+    background-color: rgba(0, 0,0,0.87);
+ }
+ .fotter ul{
+    list-style: none;
+    margin-left: 60px;
+    justify-content: space-between;
+    
+ }
+ .fotter li{
+    float: left;
+    display: inline;
+    overflow: hidden;
+    margin-top: 20px;
+ }
+ .fotter a{
+    text-decoration: none;
+    color: #d4d4d4;
+    font-size: 16px;
+    font-weight:  600 ;
+    margin-left: 10px;
+ }
